@@ -6,4 +6,24 @@ Bản này được biên dịch lại từ mã nguồn gốc, bổ sung tùy ch
 
 Chức năng gõ tiếng Việt được giữ nguyên, chỉ sửa lỗi giao diện cấu hình.
 
-Đây là bản vá không chính thức dành cho Ubuntu 26.04 (AMD64).
+Đây là bản vá không chính thức dành cho Ubuntu 26.04 (AMD64). Tôi không giữ bản quyền nào.
+
+## Cài đặt
+
+Download và chạy trong Terminal:
+
+```bash
+sudo apt install './ibus-unikey_0.7.0~beta1-3_amd64.deb'
+```
+
+Nếu máy đã cài IBus-Unikey cùng phiên bản hoặc bị báo:
+
+```bash
+ibus-unikey is already the newest version (0.7.0~beta1-3).
+```
+
+Dùng:
+
+```bash
+sudo apt install --reinstall './ibus-unikey_0.7.0~beta1-3_amd64.deb'
+```
